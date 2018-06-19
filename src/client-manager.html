@@ -1,0 +1,248 @@
+//= template/head.html
+<div class="wrapper">
+    <header class="header header-admin">
+        <div class="container header__container">
+            <div class="header__grid d-flex">
+                <div class="header__col d-flex">
+                    <a href="client-manager.html">
+                        <img src="img/logo.png" alt="logo" class="logo header__logo">
+                    </a>
+                </div>
+                <div class="header__col">
+                    <div class="exit header__exit d-flex">
+                        <div class="header__link header__link--dropdown d-flex">
+                            <span>Jonh Doe</span>
+                            <div class="dropdown header__dropdown">
+                                <div class="dropdown__item">
+                                    <a href="administrator-sign-in.html" class="dropdown__link">Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__link header__link--dropdown d-flex">
+                            <span>Client Manager</span>
+                            <div class="dropdown header__dropdown">
+                                <div class="dropdown__item">
+                                    <a href="active-administrator.html" class="dropdown__link">Administrator</a>
+                                    <a href="trustee.html" class="dropdown__link">Trustee</a>
+                                    <a href="active-operator.html" class="dropdown__link">Operator</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<main class="main">
+    <div class="action-box">
+        <div class="container">
+            <div class="action">
+                <nav class="nav action__nav d-flex">
+                    <div class="nav__left action__item--left d-flex">
+                        <div class="nav__item item__row item__row--profile"></div>
+                        <div class="nav__item item__row item__row--tofrom"> Pay from</div>
+                        <div class="nav__item item__row item__row--tofrom">Pay to</div>
+                        <div class="nav__item item__row item__row--amount">Amount</div>
+                        <div class="nav__item item__row item__row--date">Date</div>
+                        <div class="nav__item item__row item__row--status">Status </div>
+                    </div>
+                    <div class="nav__right action__item--right d-flex">
+                        <div class="nav__item item__row item__row--type">Sig 1</div>
+                        <div class="nav__item item__row item__row--type">Sig 2</div>
+                        <div class="nav__item item__row item__row--type">Sig 3</div>
+                        <div class="nav__item item__row item__row--info">
+                            <select class="form__select">
+                                <option value="Action">Action</option>
+                                <option value="Verify">Verify</option>
+                                <option value="Reject">Reject</option>
+                            </select>
+                        </div>
+                    </div>
+                </nav>
+                <div class="item action__item d-flex">
+                    <div class="item__left action__item--left d-flex">
+                        <a href="#" class="item__row item__row--profile">
+                            <svg class="item__icon">
+                                <use xlink:href="#person-icon" />
+                            </svg>
+                        </a>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--amount">XX btc</div>
+                        <div class="item__row item__row--date">01.05.2018</div>
+                        <div class="item__row item__row--status item__row--status-notverified">Not Verified</div>
+                        <div class="tooltip item__tooltip">
+                            <form action="#" class="form item__tooltip__form">
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">ID</label>
+                                    <input type="text" class="form__input" value="#1234">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Name</label>
+                                    <input type="text" class="form__input" value="John Doe">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Phone</label>
+                                    <input type="text" class="form__input" value="+12334556566">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">E-mail</label>
+                                    <input type="text" class="form__input" value="John@doe.com">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Country </label>
+                                    <select class="form__select">
+                                        <option value="RU">Ru</option>
+                                        <option value="Eng">Eng</option>
+                                    </select>
+                                    <div class="form__text">GMT +2</div>
+                                </div>
+                            </form>
+                            <div class="tooltip__close">
+                                <svg class="icon-svg icon-svg--small">
+                                    <use xlink:href="#close-icon" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__right action__item--right d-flex">
+                        <div class="item__row item__row--type item__row--type-completed">
+                            <svg>
+                                <use xlink:href="#checked-icon" />
+                            </svg>
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="nav__item item__row item__row--info">
+                        </div>
+                    </div>
+                </div>
+                <div class="item action__item d-flex">
+                    <div class="item__left action__item--left d-flex">
+                        <a href="#" class="item__row item__row--profile">
+                            <svg class="item__icon">
+                                <use xlink:href="#person-icon" />
+                            </svg>
+                        </a>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--amount">XX btc</div>
+                        <div class="item__row item__row--date">01.05.2018</div>
+                        <div class="item__row item__row--status item__row--status-completed">Verified</div>
+                        <div class="tooltip item__tooltip">
+                            <form action="#" class="form item__tooltip__form">
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">ID</label>
+                                    <input type="text" class="form__input" value="#1234">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Name</label>
+                                    <input type="text" class="form__input" value="John Doe">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Phone</label>
+                                    <input type="text" class="form__input" value="+12334556566">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">E-mail</label>
+                                    <input type="text" class="form__input" value="John@doe.com">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Country </label>
+                                    <select class="form__select">
+                                        <option value="RU">Ru</option>
+                                        <option value="Eng">Eng</option>
+                                    </select>
+                                    <div class="form__text">GMT +2</div>
+                                </div>
+                            </form>
+                            <div class="tooltip__close">
+                                <svg class="icon-svg icon-svg--small">
+                                    <use xlink:href="#close-icon" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__right action__item--right d-flex">
+                        <div class="item__row item__row--type item__row--type-completed">
+                            <svg>
+                                <use xlink:href="#checked-icon" />
+                            </svg>
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="nav__item item__row item__row--info">
+                        </div>
+                    </div>
+                </div>
+                <div class="item action__item d-flex">
+                    <div class="item__left action__item--left d-flex">
+                        <a href="#" class="item__row item__row--profile">
+                            <svg class="item__icon">
+                                <use xlink:href="#person-icon" />
+                            </svg>
+                        </a>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--tofrom">XXXXX</div>
+                        <div class="item__row item__row--amount">XX btc</div>
+                        <div class="item__row item__row--date">01.05.2018</div>
+                        <div class="item__row item__row--status item__row--status-rejected">Rejected</div>
+                        <div class="tooltip item__tooltip">
+                            <form action="#" class="form item__tooltip__form">
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">ID</label>
+                                    <input type="text" class="form__input" value="#1234">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Name</label>
+                                    <input type="text" class="form__input" value="John Doe">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Phone</label>
+                                    <input type="text" class="form__input" value="+12334556566">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">E-mail</label>
+                                    <input type="text" class="form__input" value="John@doe.com">
+                                </div>
+                                <div class="form__item d-flex">
+                                    <label for="#" class="form__label">Country </label>
+                                    <select class="form__select">
+                                        <option value="RU">Ru</option>
+                                        <option value="Eng">Eng</option>
+                                    </select>
+                                    <div class="form__text">GMT +2</div>
+                                </div>
+                            </form>
+                            <div class="tooltip__close">
+                                <svg class="icon-svg icon-svg--small">
+                                    <use xlink:href="#close-icon" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__right action__item--right d-flex">
+                        <div class="item__row item__row--type item__row--type-completed">
+                            <svg>
+                                <use xlink:href="#checked-icon" />
+                            </svg>
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="item__row item__row--type item__row--type-completed">
+                        </div>
+                        <div class="nav__item item__row item__row--info">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+//= template/footer.html
+//= template/foot.html

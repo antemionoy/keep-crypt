@@ -1,0 +1,121 @@
+//= template/head.html
+//= template/header.html
+<main class="main">
+    <div class="container">
+        <div class="breadcrumbs">
+            <span class="breadcrumbs__item breadcrumbs__item--active">Transactions</span>
+        </div>
+    </div>
+    <div class="wallets-history">
+        <div class="container">
+            <h2 class="main-title wallets-history__title">Transaction history</h2>
+            <div class="wallets-history__header d-flex">
+                <form action="#" class="form wallets-history__form d-flex">
+                    <div class="form__top d-flex">
+                        <div class="form__item d-flex">
+                            <label for="#" class="form__label">Date from</label>
+                            <input type='text' class='form__input datepicker-here' />
+                            <svg class="wallets__icon wallets__icon--calendar">
+                                <use xlink:href="#calendar-icon" />
+                            </svg>
+                        </div>
+                        <div class="form__item d-flex">
+                            <label for="#" class="form__label">Date to</label>
+                            <input type='text' class='form__input datepicker-here' />
+                            <svg class="wallets__icon wallets__icon--calendar">
+                                <use xlink:href="#calendar-icon" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form__center d-flex">
+                        <div class="form__item">
+                            <label for="#" class="form__label">Type</label>
+                            <select class="form__select">
+                                <option value="All">All</option>
+                                <option value="Debits">Debits</option>
+                                <option value="Credits">Credits</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="form__bottom d-flex">
+                                      <div class="form__item form__search d-flex">
+                            <button type="submit" class="button button--small">
+                                <span>Search</span>
+                                <svg class="search-icon">
+                                    <use xlink:href="#search-icon" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="wallets-history__body">
+                <div class="history">
+                    <nav class="nav history__nav d-flex">
+                        <div class="nav__item item__row item__row--date">Date</div>
+                        <div class="nav__item item__row item__row--wallet">Wallet</div>
+                        <div class="nav__item item__row item__row--type">Type</div>
+                        <div class="nav__item item__row item__row--tofrom">to/from</div>
+                        <div class="nav__item item__row item__row--id">Transaction ID</div>
+                        <div class="nav__item item__row item__row--status">Status </div>
+                        <div class="nav__item item__row item__row--desc">Description</div>
+                        <div class="nav__item item__row item__row--amount">Amount</div>
+                    </nav>
+                    <div class="history__grid">
+                        <div class="item history__item d-flex">
+                            <div class="item__row item__row--date">01.05.2018</div>
+                            <div class="item__row item__row--wallet">Сhamomile 3</div>
+                            <div class="item__row item__row--type item__row--type-rejected">
+                                <svg>
+                                    <use xlink:href="#checked-icon" />
+                                </svg>
+                            </div>
+                            <div class="item__row item__row--tofrom">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                            <div class="item__row item__row--id">xxxxxxxxxxxxxxx</div>
+                            <div class="item__row item__row--status item__row--status-rejected">Rejected</div>
+                            <div class="item__row item__row--desc">Pay To win</div>
+                            <div class="item__row item__row--amount">1 BTC/ 8541 USD</div>
+                        </div>
+                        <div class="item history__item d-flex">
+                            <div class="item__row item__row--date">01.05.2018</div>
+                            <div class="item__row item__row--wallet">Сhamomile 3</div>
+                            <div class="item__row item__row--type item__row--type-rejected">
+                                <svg>
+                                    <use xlink:href="#checked-icon" />
+                                </svg>
+                            </div>
+                            <div class="item__row item__row--tofrom">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                            <div class="item__row item__row--id">xxxxxxxxxxxxxxx</div>
+                            <div class="item__row item__row--status item__row--status-processing">Processing</div>
+                            <div class="item__row item__row--desc">Marketing</div>
+                            <div class="item__row item__row--amount">1 BTC/ 8541 USD</div>
+                        </div>
+                        <div class="item history__item d-flex">
+                            <div class="item__row item__row--date">01.05.2018</div>
+                            <div class="item__row item__row--wallet">Сhamomile 3</div>
+                            <div class="item__row item__row--type item__row--type-completed">
+                                <svg>
+                                    <use xlink:href="#checked-icon" />
+                                </svg>
+                            </div>
+                            <div class="item__row item__row--tofrom">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                            <div class="item__row item__row--id">xxxxxxxxxxxxxxx</div>
+                            <div class="item__row item__row--status item__row--status-completed">Completed</div>
+                            <div class="item__row item__row--desc">Salary</div>
+                            <div class="item__row item__row--amount">1 BTC/ 8541 USD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wallets-history__footer d-flex">
+                <a href="#" class="more">
+                    <img src="img/down-arrow.png" alt="">
+                    <div class="more__text">More transactions</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+//= template/footer.html
+//= template/foot.html

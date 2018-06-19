@@ -1,0 +1,213 @@
+//= template/head.html
+//= template/header.html
+<main class="main">
+    <div class="container">
+        <div class="breadcrumbs">
+            <span class="breadcrumbs__item breadcrumbs__item--active">My Wallets</span>
+        </div>
+        <div class="tabs tabs-wallets">
+            <div class="tabs__box">
+                <div class="tabs__grid d-flex">
+                    <div class="wallets wallets--new">
+                        <a href="open-wallet.html" class="wallets__link d-flex">
+                            <svg class="wallets__icon">
+                                <use xlink:href="#wallets-icon" />
+                            </svg>
+                            <span>New Wallet</span>
+                        </a>
+                    </div>
+                    <nav class="tabs__nav d-flex">
+                        <a href="#" class="tabs__link tabs__link--selected">Operational Wallets</a>
+                        <a href="#" class="tabs__link">Cold Storage Wallets</a>
+                    </nav>
+                </div>
+                <!-- tab__item -->
+                <div class="tabs__item active">
+                    <div class="wallets-app">
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 1</a>
+                                    <div class="wallets-app__status wallets-app__status--active">Active</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                    <div class="wallets-app__dropdown wallets-app--dropdown d-flex">
+                                        <span>Manage wallet</span>
+                                        <div class="dropdown">
+                                            <div class="dropdown__item">
+                                                <a href="new-transaction__send.html" class="dropdown__link">Send</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="new-transaction__fund.html" class="dropdown__link">Fund</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="#" class="dropdown__link" data-remodal-target="modal">Recieve</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="report-of-key-loss.html" class="dropdown__link">Report of key loss</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">2 BTC / 8500 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available</div>
+                                        <div class="wallets-app__available wallets-app__available--active">1 BTC / 4250 US</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 2</a>
+                                    <div class="wallets-app__status wallets-app__status--blocked">Blocked due to wallets regeneration</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                    <div class="wallets-app__dropdown wallets-app--dropdown d-flex">
+                                        <span>Manage wallet</span>
+                                        <div class="dropdown">
+                                            <div class="dropdown__item">
+                                                <a href="transfer-all-money.html" class="dropdown__link">Transfer all money</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">1 BTC / 4250 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available for transaction:</div>
+                                        <div class="wallets-app__available wallets-app__available--active">0 BTC / 0 USD
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 3</a>
+                                    <div class="wallets-app__status wallets-app__status--blocked">Blocked due to key loss</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">1 BTC / 4250 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available for transaction:</div>
+                                        <div class="wallets-app__available wallets-app__available--active">0 BTC / 0 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / tab__item -->
+                <!--  tab__item -->
+                <div class="tabs__item">
+                    <div class="wallets-app">
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 1</a>
+                                    <div class="wallets-app__status wallets-app__status--active">Active</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                    <div class="wallets-app__dropdown wallets-app--dropdown d-flex">
+                                        <span>Manage wallet</span>
+                                        <div class="dropdown">
+                                            <div class="dropdown__item">
+                                                <a href="new-transaction__send.html" class="dropdown__link">Send</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="new-transaction__fund.html" class="dropdown__link">Fund</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="#" class="dropdown__link" data-remodal-target="modal">Recieve</a>
+                                            </div>
+                                            <div class="dropdown__item">
+                                                <a href="report-of-key-loss.html" class="dropdown__link">Report of key loss</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">2 BTC / 8500 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available</div>
+                                        <div class="wallets-app__available wallets-app__available--active">1 BTC / 4250 US</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 2</a>
+                                    <div class="wallets-app__status wallets-app__status--blocked">Blocked due to wallets regeneration</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                    <div class="wallets-app__dropdown wallets-app--dropdown d-flex">
+                                        <span>Manage wallet</span>
+                                        <div class="dropdown">
+                                            <div class="dropdown__item">
+                                                <a href="transfer-all-money.html" class="dropdown__link">Transfer all money</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">1 BTC / 4250 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available for transaction:</div>
+                                        <div class="wallets-app__available wallets-app__available--active">0 BTC / 0 USD
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallets-app__item d-flex">
+                            <div class="wallets-app__header d-flex">
+                                <div class="wallets-app__col wallets-app__col--flex-column d-flex">
+                                    <a href="wallets-in.html" class="wallets-app__name">Сhamomile 3</a>
+                                    <div class="wallets-app__status wallets-app__status--blocked">Blocked due to key loss</div>
+                                </div>
+                                <div class="wallets-app__col d-flex">
+                                </div>
+                            </div>
+                            <div class="wallets-app__body d-flex">
+                                <div class="wallets-app__key">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</div>
+                                <div class="wallets-app__center">
+                                    <div class="wallets-app__summ">1 BTC / 4250 US</div>
+                                    <div class="wallets-app__bottom d-flex">
+                                        <div class="wallets-app__text">Available for transaction:</div>
+                                        <div class="wallets-app__available wallets-app__available--active">0 BTC / 0 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / tabs-item -->
+            </div>
+        </div>
+    </div>
+</main>
+//= template/footer.html
+ //= template/foot.html

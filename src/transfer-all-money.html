@@ -1,0 +1,37 @@
+//= template/head.html
+ //= template/header.html
+<main class="main">
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="my-wallets.html" class="breadcrumbs__item">My Wallets</a>
+            <a href="wallets-in.html" class="breadcrumbs__item">Camomile 1</a>
+            <span class="breadcrumbs__item breadcrumbs__item--active">Transfer all money</span>
+        </div>
+    </div>
+    <div class="report">
+        <div class="container">
+            <h1 class="main-title report__title">Select your wallet to transfer money to</h1>
+            <div class="report__box">
+                <form action="#" class="form report__form">
+                    <div class="form__item d-flex">
+                        <label class="form__label">Transfer to </label>
+                        <select class="form__select">
+                            <option value="Camomile 1">Camomile 1</option>
+                            <option value="Camomile 2">Camomile 2</option>
+                            <option value="Camomile 3">Camomile 3</option>
+                            <option value="Camomile 3">New Wallet</option>
+                        </select>
+                    </div>
+                    <div class="form__item d-flex">
+                        <label class="form__label">Provide PK1</label>
+                        <input type="text" class="form__input">
+                        <button class="button">Browse</button>
+                    </div>
+                    <button type="submit" class="button button--right">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+//= template/footer.html
+//= template/foot.html

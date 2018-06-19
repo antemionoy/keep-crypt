@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Light/Geometria-Light.eot?#iefix') format('embedded-opentype'),
+         url('Geometria-Light/Geometria-Light.woff') format('woff'),
+         url('Geometria-Light/Geometria-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Regular/Geometria.eot?#iefix') format('embedded-opentype'),
+         url('Geometria-Regular/Geometria.woff') format('woff'),
+         url('Geometria-Regular/Geometria.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Medium/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Geometria-Medium/Geometria-Medium.woff') format('woff'),
+         url('Geometria-Medium/Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Bold/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Geometria-Bold/Geometria-Bold.woff') format('woff'),
+         url('Geometria-Bold/Geometria-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria-Thin';
+  src: url('Geometria-Thin/Geometria-Thin.eot?#iefix') format('embedded-opentype'),
+       url('Geometria-Thin/Geometria-Thin.woff') format('woff'),
+       url('Geometria-Thin/Geometria-Thin.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
